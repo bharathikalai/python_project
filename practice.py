@@ -15,7 +15,22 @@
 # except:
 #     print("bro are you ok")
 
-try:
-    print(x)
-except Exception as e:
-    print(e)
+# try:
+#     print(x)
+# except Exception as e:
+#     print(e)
+
+
+
+# import counter class from collections module
+from collections import Counter
+
+# Creation of a Counter Class object using 
+# string as an iterable data container
+x = Counter("geeksforgeeks")
+
+print("counter check", x)
+
+# printing the elements of counter object
+for i in x.elements():
+	print ( i, end = " ")

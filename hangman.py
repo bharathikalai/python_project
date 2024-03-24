@@ -9,6 +9,8 @@ someWords = someWords.split(' ')
 # randomly choose a secret word from our "someWords" LIST. 
 word = random.choice(someWords) 
 
+print(type(word))
+
 if __name__ == '__main__': 
 	print('Guess the word! HINT: word is a name of a fruit') 
 
