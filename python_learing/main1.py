@@ -1,1 +1,0 @@
-from python_learing.main1 import User
