@@ -56,7 +56,7 @@ def main():
         elif choise == "3":
             mark_completed(tasks)
         elif choise == "4":
-            remove_task == "4"
+            remove_task(tasks)
         elif choise == "5":
             print("exiting....")
             break
