@@ -18,9 +18,9 @@
 
 
 
-# try 2 
+# # try 2 
 
-# multiplay devison and subraction 
+# # multiplay devison and subraction 
 
 # class Maths:
 #     def __init__(self,value1,value2):
@@ -48,7 +48,7 @@
 # print("value for c",c)
 
 
-# try 3 
+# # try 3 
 
 # class Rec():
 #     def __init__(self,length,width):
@@ -70,25 +70,85 @@
 
 
 
-# try 4 : 
-from datetime import date
+# # try 4 : 
+# from datetime import date
 
+# class Person:
+
+#     def __init__(self,name,birth_year):
+#         self.name = name
+#         self.birth_year = birth_year
+
+#     def age(self):
+#         today = date.today()
+#         return today.year - self.birth_year
+    
+#     def is_adult(self):
+#         return self.age() >=18
+    
+# person1 = Person("bharathi",1997)
+
+# if person1.is_adult():
+#     print(f"{person1.name} is a adult.")
+# else:
+#     print(f"{person1.name} is not an adult")
+
+# print(person1.age())
+
+
+#try 5:
+
+from datetime import date
 class Person:
 
     def __init__(self,name,birth_year):
         self.name = name
         self.birth_year = birth_year
-
+    
     def age(self):
         today = date.today()
         return today.year - self.birth_year
     
     def is_adult(self):
-        return self.age() >=18
+        return self.age() >= 18
     
-person1 = Person("bharathi",1997)
+class Student(Person):
+    def __init__(self, name, birth_year,student_id):
+        super().__init__(name, birth_year)
+        self.student_id = student_id
 
-if person1.is_adult():
-    print(f"{person1.name} is a adult.")
+    def display_info(self):
+        print(f"name: {self.name}")
+        print(f"Birth Year: {self.birth_year}")
+        print(f"Age: {self.age()}")
+        print(f"Student ID: {self.student_id}")
+
+
+#creating an instance of the student class
+
+student1 = Student("bharathi",1997,"2024001")
+
+student1.display_info()
+
+
+if student1.is_adult():
+    print("Student is an adult")
 else:
-    print(f"{person1.name} is not an adult")
+    print("student is not adult")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
