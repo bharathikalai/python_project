@@ -1,0 +1,5 @@
+task 1 : eating
+task 2 : sleeping
+task 3 : running
+dancing (completed)
+trading (completed)
