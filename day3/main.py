@@ -24,25 +24,26 @@ if __name__ == "__main__":
     main()
 
 
-# def find_fact(num):
+def find_fact(num):
 
-#     factors = []   # empty array variable
+    factors = []   # empty array variable
 
-#     for x in range(2,num+1):   
-#         print(x,"the value of x") 
+    for x in range(2,num+1):   
 
-#         while num % x == 0:
-#             factors.append(x)
-#             num //=x
-#             print("num",num)
-#     return factors
+        while num % x == 0:
+            factors.append(x)
+            # num //=x
+            num = num // x
+    return factors
 
-# x = find_fact(9)
-# # the expected output of x is [2, 3]
-# print(x)
-
+x = find_fact(9)
+# the expected output of x is [2, 3]
+print(x)
 
 
 
+# print("value of x",x)
 
 
+# x = 9 % 3
+# print("x",x)
