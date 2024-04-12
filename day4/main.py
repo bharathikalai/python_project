@@ -11,7 +11,7 @@ def display_contacts(contacts):
         print("list of contacts: ")
         for idx,contact in enumerate(contacts, start=1):
             a,b,c = contact
-            print(f"{idx}. name: {a},phone:{b},email{c}")
+            print(f"{idx}. name: {a},phone:{b},{c}email")
 
 
 def main():
