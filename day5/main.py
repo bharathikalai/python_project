@@ -69,12 +69,12 @@ while True:
     move_snake()
 
     # Get user input for direction
-    key = input("Enter direction (u/l/d/r): ").upper()
-    if key == 'u':
+    key = input("Enter direction (W/A/S/D): ").upper()
+    if key == 'W':
         direction = 'UP'
-    elif key == 'd':
+    elif key == 'S':
         direction = 'DOWN'
-    elif key == 'l':
+    elif key == 'A':
         direction = 'LEFT'
-    elif key == 'r':
+    elif key == 'D':
         direction = 'RIGHT'

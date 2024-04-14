@@ -98,10 +98,54 @@ def print_board():
             else:
                 print(EMPTY_CHAR, end='')
         print()
+def move_snake():
+    global snake, food, direction,score
 
+    head_x,head_y = snake[0]
 
+    if direction == 'UP':
+        new_head = (head_x,head_y -1)
+    elif direction == 'DOWN':
+        new_head = (head_x,head_y + 1)
+    elif direction == 'LEFT':
+        new_head = (head_x - 1,head_y)
+    elif direction == 'RIGHT':
+        new_head = (head_x + 1,head_y)
+    
+    if (
+        new_head[0] < 0 or new_head[0] >= WIDTH or
+        new_head[1] < 0 or new_head[1] >= HEIGHT or
+        new_head in snake
 
-print_board()
+    ):
+        print("game over your score:",score)
+
+    #calculate new head position based on the direction
+
+    snake.insert(0,new_head)
+
+    if new_head == food:
+        food = (random.randint(0, WIDTH-1), random.randint(0, HEIGHT-1))
+        score +=1
+    else:
+        snake.pop()
+
+while True:
+    print_board()
+    move_snake()
+
+    #get user input for direction
+    key = input("enter direction (w/a/s/d): ").upper()
+
+    if key == 'W':
+        direction = 'UP'
+    elif key == 'S':
+        direction = 'DOWN'
+    elif key == 'A':
+        direction = 'LEFT'
+    elif key == 'D':
+        direction = 'RIGHT'
+
 
 
 
