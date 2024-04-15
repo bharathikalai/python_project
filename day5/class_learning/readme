@@ -1,0 +1,61 @@
+#object 
+#what is object 
+# object is a thing that you can see or touch in the real world
+# it could be a car a person  or even a piece of cake
+# if you have a toy car that toy car is an object it has certain 
+# properties like color size and speed
+
+
+#class 
+
+#what is class 
+
+#classes are like blueprints or templates for creating objects they defind 
+
+# a class is like a blue print or recipe to create objects
+# imagin you have a blueprint for making toy car this blueprints tells you 
+# what a toy car should look like and what it can do 
+
+# it specifies the property like color and size and action like move 
+# and stop that every toy car made using this blueprint will have
+
+# object = something you can touch or interact with (like a toy car)
+# class = blueprint or recipe to create object (like the instruction for making toy cars)
+
+
+
+
+# Inheritance
+
+# inheritance in programming allow a new class (child class) to inherit attributes
+#                                               and method 
+#                                               form existing class 
+#                                               this is called inheritance)
+#type of class 
+#parent class
+# child class
+
+
+
+
+#encapsulation
+
+# imagine you have a tresure chest inside this tresure chest you keep your 
+# valuable items safe form others the teasure chest have a lock on it and only you have the key to open it 
+
+
+# treasure chest :  this is like a class its a container the holds your data(like variables)
+# and methods like function
+
+#valuable items : these are like the data(attributes ) you wan to keep safe and organized
+
+#lock and key : this represents encapsulation  the lock protects the treasure chest class and methos allow you to access and manipultate the data safely
+
+
+
+#polymorphism
+
+
+
+# polymorphism  in programming means that diffrent classes or object can respond
+# to the same method or function in their own unique way
