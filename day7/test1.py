@@ -18,13 +18,13 @@
 
 
 
-z = {100:9}
+# z = {100:9}
 
-print(z[100][0])
+# print(z[100][0])
 
-# y = {11:2}
+y = {11:2}
 
-# x = [y[11],3] 
+x = [y[11],3] 
 
-# print(x,"value of x")
+print(x,"value of x")
 
