@@ -1,0 +1,6 @@
+#create a simple project for managing a student roster using linked lists. In this project, 
+we'll create a linked list of students, each with a name and a student ID.
+We'll provide options to add students, view the roster, and search for a student by ID.
+
+
+#in practice file you can find the small project of linked list
