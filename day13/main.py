@@ -42,8 +42,6 @@ class Hangman:
         return False
 
 
-
-
 words = ["python","hangman","programming","game","computer"]
 
 hangman_game = Hangman(words)
