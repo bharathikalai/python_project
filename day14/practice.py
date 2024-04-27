@@ -1,3 +1,70 @@
+
+# def remove_match_char(list1,list2):
+
+#     for i in range(len(list1)):
+#         for j in range(len(list2)):
+
+#             if list1[i] == list2[j]:
+#                 c = list1[i]
+#                 list1.remove(c)
+#                 list2.remove(c)
+
+#                 list3 = list1 + ["*"] + list2
+
+#                 return [list3, True]
+#     list3 = list1 + ["*"] + list2
+
+#     return [list3,False]
+
+# if __name__ == "__main__":
+#     p1 = input("player 1 name :")
+#     p1 = p1.lower()
+#     p1.replace(" ","")
+#     p1_list = list(p1)
+
+#     p2 = input("player 2 name :")
+#     p1 = p2.lower()
+#     p2.replace(" ","")
+#     p2_list = list(p2)
+
+#     proceed = True
+
+#     while proceed:
+#         ret_list = remove_match_char(p1_list,p2_list)
+#         print(ret_list,"ret list")
+#         break
+
+
+
+
+# def abc(a,b):
+#     for i in range(len(a)):
+#         for j in range(len(b)):
+#             if a[i] == b[j]:
+#                 c = a[i]
+#                 print("the value of c",c)
+#                 a.remove(c)
+#                 b.remove(c)
+#                 c = a +["*"]+b
+#                 return c
+
+#     c = a +["*"]+b
+#     return c
+
+# a = ['b', 'h', 'a', 'r', 'a', 't', 'h', 'i']
+# b = ['r','u','b','y']
+
+# a  = ['r','a']
+# b  = ['b','c']
+
+# c = abc(a,b)
+
+# print("the value of c",c)
+
+
+
+
+
 # function for removing common characters
 # with their respective occurrences
 
@@ -21,7 +88,6 @@ def remove_match_char(list1, list2):
 				# concatenation of two list elements with *
 				# * is act as border mark here
 				list3 = list1 + ["*"] + list2
-				print("1")
 
 				# return the concatenated list with True flag
 				return [list3, True]
@@ -29,7 +95,6 @@ def remove_match_char(list1, list2):
 	# no common characters is found
 	# return the concatenated list with False flag
 	list3 = list1 + ["*"] + list2
-	print(2)
 	return [list3, False]
 
 
@@ -78,8 +143,9 @@ if __name__ == "__main__":
 
 		# all characters before * store in p1_list
 		p1_list = con_list[: star_index]
+		print(p1_list,"the value of p1")
 
-		# all characters after * store in p2_listab
+		# all characters after * store in p2_list
 		p2_list = con_list[star_index + 1:]
 
 	# count total remaining characters
@@ -102,9 +168,7 @@ if __name__ == "__main__":
 
 			# list slicing
 			right = result[split_index + 1:]
-			print("value right",right)
 			left = result[: split_index]
-			print("value left",left)
 
 			# list concatenation
 			result = right + left
