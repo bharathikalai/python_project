@@ -1,3 +1,5 @@
+#########problem_1#############
+
 if __name__ == '__main__':
     n = int(input("enter the input"))
     student_marks = {}
@@ -80,5 +82,25 @@ if __name__ == '__main__':
 
 
 
-a = 10 / 2
-print("the value of a",a)
+# a = 10 / 2
+# print("the value of a",a)
+
+
+
+###############problem 2####################3
+
+no_std_english_news_paper = 9
+
+list_of_std1_roll_num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+no_std_french_news_paper = 9
+
+list_of_std2_roll_num = [10, 1, 2, 3, 11, 21, 55, 6, 8]
+
+newlist = set(list_of_std2_roll_num).difference(set(list_of_std1_roll_num))
+
+print(len(newlist))
+
+
+
+
