@@ -37,44 +37,67 @@
 
 
 
-#method 1
+# method 1  this method is not recommanded
 
-# def count_substring(string, sub_string):
-#     mod  = len(string) % len(sub_string)
-#     print("mod",mod)
+def count_substring(string, sub_string):
+    mod  = len(string) % len(sub_string)
+    print("mod",mod)
 
-#     sub = len(sub_string) + 1
-#     print("sub value",sub)
-#     d = string[sub:]
+    sub = len(sub_string) + 1
+    print("sub value",sub)
+    d = string[sub:]
 
-#     e = len(d)
+    e = len(d)
 
-#     e = e -1
+    e = e -1
 
-#     f = string[e:len(string)- e]
+    f = string[e:len(string)- e]
 
-#     c = list(d.split(" ")) + list(f.split(" "))
+    c = list(d.split(" ")) + list(f.split(" "))
 
-#     return len(c)
+    return len(c)
 
-# if __name__ == '__main__':
-#     string = input().strip()
-#     sub_string = input().strip()
+if __name__ == '__main__':
+    string = input().strip()
+    sub_string = input().strip()
     
-#     count = count_substring(string, sub_string)
-#     print(count)
+    count = count_substring(string, sub_string)
+    print(count)
 
 
-#method 2
-
-a = "ThIsisaCoNfUsInG"
+#method 2   this is the correct method
 
 
-b = "isa"
+def count_substring(string, sub_string):
+    count = 0
+    for i in range(len(string) - len(sub_string) + 1):
+
+        if string[i:i+len(sub_string)] == sub_string:
+            count += 1
+    return count
+
+if __name__ == '__main__':
+    string = input().strip()
+    sub_string = input().strip()
+    
+    count = count_substring(string, sub_string)
+    print(count)
 
 
 
+#Debuinng the code
+string = "ABCDCDC"
 
-for x in range(0,len(a)):
-    if b in a:
-        print(a.count(b))
+substring = "CDC"
+
+a = string[1:1+3]
+b = string[2:2+3]
+c = string[3:3+3]
+d = string[4:4+3]
+print("the value of string",a)
+print("the value of string",b)
+print("the value of string",c)
+print("the value of string",d)
+
+
+
