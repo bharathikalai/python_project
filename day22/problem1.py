@@ -21,16 +21,23 @@
 # AD
 
 
+# aab
+# caa
+# ada
+#i want  like aab   caa   ada
 
+#method 1
 
 def merge_the_tools(string, k):
-    leng = len(string) // k
-    print("the len",leng)
+    leng = len(string)
 
-    chuck = 
-    print("string",a)
-
-
+    for x in range(0,leng,k):
+        a = string[x:x+k]
+        uniqe = set(a)
+        new_string = ''.join(uniqe)
+        print(new_string)
 if __name__ == '__main__':
     string, k = input(), int(input())
     merge_the_tools(string, k)
+
+
