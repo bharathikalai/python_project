@@ -1,0 +1,16 @@
+importent_python_modules  
+
+<!-- Requests - To send HTTP requests (GET, POST, PUT, DELETE) and interact with RESTful APIs.
+JSON - To parse JSON file.
+YAML - To parse YAML file.
+virtualenv - To create an isolated environment.
+Pytest - To write test cases for your code.
+Boto3 - Allows managing AWS infrastructure using Python script. 
+
+flask/Django
+
+pytest
+JenkinsAPI:
+-->
+
+
