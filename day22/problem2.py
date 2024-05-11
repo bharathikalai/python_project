@@ -1,52 +1,45 @@
-#hacker rank question
+# Given an integer,n , print the following values for each integer i from 1 to :
+
+# Decimal
+# Octal
+# Hexadecimal (capitalized)
+# Binary
 
 
 
-# You are given a string N .
-# Your task is to verify that N is a floating point number.
+# def print_formatted(number):
 
-# In this task, a valid float number must satisfy all of the following requirements:
+#     bin_str = bin(number)[2:]
+#     bin_len = len(bin_str)
+#     for x in range(1,number+1):
+#         decimal = str(x).rjust(bin_len)
+#         oct = oct(x)[2:].rjust(bin_len)
+#         print(oct)
 
-# number can start with +,- or .symbol
-
-
-# for exmaple
-
-# +4.50
-# ✔
-# -1.0
-# ✔
-# .5
-# ✔
-# -.7
-# ✔
-# +.4
-# ✖
-#  -+4.5
-
-
-def find_the_flot(a):
-    if a in "+":
-        return True
-    elif a in "-":
-        return True
-    elif a in ".":
-        return True
-    elif a in "-.":
-        return True
-    elif a in "+.":
-        return True
-
-    else:
-        return False
+# if __name__ == '__main__':
+#     n = int(input())
+#     print_formatted(n)
 
 
 
+   
+def print_formatted(number):
+    # your code goes here
+    if 1 <= number <= 99:
+
+        binary_str = bin(number)[2:]
+        binary_len = len(binary_str) # binary representation length
+
+        for i in range(1, number+1):
+            decimal = str(i).rjust(binary_len)
+            octal = oct(i)[2:].rjust(binary_len)
+            hexadecimal = hex(i).upper()[2:].rjust(binary_len)
+            binary = bin(i)[2:].rjust(binary_len)
+            print(decimal, octal, hexadecimal, binary)
+
+        return 
 
 
-
-
-b = int(input())
-
-find_the_flot(b)
-
+if __name__ == '__main__':
+    n = int(input())
+    print_formatted(n)
