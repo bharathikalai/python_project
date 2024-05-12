@@ -1,0 +1,11 @@
+{
+    "key1": "value1",
+    "key2": 123,
+    "key3": true,
+    "key4": ["item1", "item2", "item3"],
+    "key5": {
+      "nested_key1": "nested_value1",
+      "nested_key2": 456
+    }
+  }
+  
