@@ -1,0 +1,13 @@
+Date,Product,Amount,Customer,Region
+2022-01-01,Product A,1000,John,Dallas
+2022-01-05,Product B,1500,Alice,New York
+2022-01-10,Product A,1200,Bob,Chicago
+2022-01-15,Product C,800,Alice,New York
+2022-02-01,Product A,1100,John,Dallas
+2022-02-05,Product B,1600,Charlie,Los Angeles
+2022-02-10,Product A,1300,Bob,Chicago
+2022-02-15,Product C,900,Alice,New York
+2022-03-01,Product A,1200,John,Dallas
+2022-03-05,Product B,1700,Charlie,Los Angeles
+2022-03-10,Product A,1400,Bob,Chicago
+2022-03-15,Product C,1000,Alice,New York
