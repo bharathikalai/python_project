@@ -1,7 +1,6 @@
 import random
 
 
-
 def  getDigits(num):
     return [int(i) for i in str(num)]
 
@@ -35,8 +34,10 @@ def numOfBullsCows(num,guess):
             if j == i:
                 print(j,i,"the value of j and i")
                 bulls_cow[0] += 1
+                print(bulls_cow[0] ,"fghjklkjhgfdfghjklkjhgf")
             else:
                 bulls_cow[1] += 1
+                print("else")
     return bulls_cow
 
 
@@ -52,7 +53,7 @@ while tries > 0:
         print("number should not have repeated digits try again")
         continue
     if guess < 10 or guess > 20:
-        print("enter 4 digit number only try again..")
+        print("enter 2 digit number only try again..")
         continue
 
     bulls_cow = numOfBullsCows(num,guess)

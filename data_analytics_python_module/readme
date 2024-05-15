@@ -1,0 +1,7 @@
+Python is widely used in data analytics and has a rich ecosystem of libraries for this purpose. Here are the top three Python modules commonly used in data analytics:
+
+NumPy: NumPy is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. NumPy is the foundation for many other Python data analytics libraries, such as Pandas and SciPy.
+
+Pandas: Pandas is a powerful data manipulation and analysis library built on top of NumPy. It offers data structures like DataFrames and Series that make it easy to handle and manipulate structured data. Pandas provides functionalities for reading and writing data from various file formats, cleaning and preprocessing data, and performing data analysis tasks such as filtering, grouping, and aggregating data.
+
+Matplotlib (and Seaborn): Matplotlib is a comprehensive library for creating static, interactive, and animated visualizations in Python. It provides a wide range of plotting functions to visualize data in various formats like line plots, scatter plots, histograms, bar charts, and more. Seaborn is built on top of Matplotlib and provides a higher-level interface for creating attractive statistical graphics. It simplifies the process of creating complex visualizations and provides additional statistical plotting capabilities.

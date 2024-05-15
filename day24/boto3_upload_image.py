@@ -24,3 +24,5 @@ with open(file_path,'rb') as file:
     s3.upload_fileobj(file,bucket_name,file_name)
 
 print("file uploaded successfully")
+
+

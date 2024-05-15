@@ -20,8 +20,8 @@ print(min(data["age"]))
 print(max(data["age"]))
 
 
-#desc we can find the static of numaeic column
-print(data.describe())
+# #desc we can find the static of numaeic column
+# print(data.describe())
 
 
 
@@ -30,10 +30,10 @@ print(data)
 print()
 
 
-#edite the single value using indexing
+# #edite the single value using indexing
 
 print("modified data")
-data.at[1,"age"] = 31
+data.at[0,"age"] = 30
 print(data)
 
 

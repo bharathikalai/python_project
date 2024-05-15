@@ -7,6 +7,10 @@ data = pd.DataFrame({
     "city":["new york","chennai","mumbai","madurai","salem","nagarkovil","covai","pune"]
 })
 
+
+print(data.head(1))
+
+
 print(data)
 
 #info methods

@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
 
 
-
+###############practice##############
 
 # name, *line = input().split()
 # print("name",name)
