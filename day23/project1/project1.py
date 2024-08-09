@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 
 sales_data = pd.read_csv("/home/bharathibk/github/python_project/day23/project1/sales_data.csv")
 
+# print(sales_data)
+
 # print(sales_data.info())
 # print(sales_data.head())
 

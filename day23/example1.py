@@ -3,20 +3,21 @@ import pandas as pd
 
 data = pd.DataFrame({
     "name":["bharathi","vijay","ajith","kamal","ramesh","babu","ramya","balu"],
-    "age":[26,30,80,90,12,23,30,80],
+    "age":[90,30,80,90,12,23,30,80],
     "city":["new york","chennai","mumbai","madurai","salem","nagarkovil","covai","pune"]
 })
 
 
-print(data.head(1))
+
+print(data.head())
 
 
-print(data)
+# print(data)
 
-#info methods
+# #info methods
 print(data.info())
 
-#describe method  # Display descriptive statistics about numeric columns
+# #describe method  # Display descriptive statistics about numeric columns
 
 
 print(data.describe())
@@ -25,10 +26,10 @@ print(data.describe())
 print(data["age"])
 
 
-#muliple colum
+# #muliple colum
 print(data[["city","age"]])
 
 
-# Filtering rows based on a condition
+# # Filtering rows based on a condition
 
 print(data[data["age"]== 90])

@@ -14,7 +14,7 @@ data = pd.DataFrame({
 #using this mean we can find the value in group by with average value
 grouped_data = data.groupby("name").mean()
 
-print(grouped_data)
+# print(grouped_data)
 
 
 
@@ -23,10 +23,10 @@ print(grouped_data)
 
 duplicate_groups = data.groupby(data.columns.to_list()).size()
 
-print(duplicate_groups)
+# print(duplicate_groups)
 
 
-# #how to filter duplicate value only 
+# # #how to filter duplicate value only 
 
 filtered_data = data[~data.duplicated()]
 print(filtered_data,"ddd")
