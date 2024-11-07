@@ -225,15 +225,16 @@
 # [print(x) for x in thislist]
 
 
-# list Comprehension
-fruite = ["apple","banana","cherry","kiwi","mango"]
+# # list Comprehension
+# fruite = ["apple","banana","cherry","kiwi","mango"]
 
-newlist = []
+# newlist = []
 
-for x in fruite:
-    if "y" in x:
-        newlist.append(x)
-print(newlist)
+# for x in fruite:
+#     if "y" in x:
+#         newlist.append(x)
+# print(newlist)
 
+# tuple 
 
 
