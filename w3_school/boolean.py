@@ -238,3 +238,343 @@
 # tuple 
 
 
+# mytuple = ("apple","banana","cherry")
+
+# print(type(mytuple))
+
+
+# seting = (1,2,2,3)
+# print("the value of setting",seting)
+
+# lenh = len((seting))
+# print("the value of len",lenh)
+
+
+# thistuple = ("apple",)
+# print(type(thistuple))
+
+
+# tuple1 = ("apple",1,False)
+
+# print(type(tuple1))
+# print("result",tuple1)
+
+
+
+# thistuple = ("apple","cherry","gelly")
+
+# print(thistuple[0:])
+# print(thistuple[:-1])
+
+# thistuple = ("apple","banana","cherry")
+
+# if "appleaa" in thistuple:
+#     print("apple in the tuple")
+# else:
+#     print("apple is not in the tuple")
+
+
+
+# fruites = ("apple","banana","cherry")
+
+# (green,yellow,red) = fruites
+
+# print(red)
+
+
+# fruites = ("apple","banana","cherry","strawberry","raspberry")
+
+# (green,yellow,*red) = fruites
+
+
+# print(red)
+
+
+
+
+
+
+# def fub(thi):
+#     return thi
+
+# thistuple = ("apple","banana","cherry")
+
+# result = fub(thistuple)
+
+# print(result)
+
+# for x in thistuple:
+#     print(x)
+
+
+
+
+
+
+
+
+
+# thistuple = ("apple","banana","cherry")
+
+# for i in range(len(thistuple)):
+#     print(i,"the range of my tuple")
+
+
+
+
+# thistuple = ("apple","banana","cherry")
+
+# i = 0
+
+# while i < len(thistuple):
+#     print(thistuple[i])
+#     i +=1
+
+
+# join the two tuple
+
+# tuple1 = ("a","b","c")
+# tuple2 = ("1","2","2")
+
+# tuple3 = tuple1 + tuple2
+
+# print(tuple3)
+
+
+# # multiple the tuple 
+
+# multiple = (1,2,3)
+
+# multiply_with_3 = multiple * 2
+
+# print("i am multiplying this",multiply_with_3)
+
+# abc = (1,2,3,4,5)
+
+# bc = abc.count(5)
+
+# print("bc",bc)
+
+# print(abc.count)
+
+# cc = abc.index(3)
+
+# print("the value of cc",cc)
+
+
+# myset = {"apple","banana","cherry"}
+
+# print("myset",myset)
+
+# thisset = {"apple","banana","cherry",False,True,0}
+
+# print(thisset)
+
+# thisset = {"apple","banana","banana"}
+# print(thisset)
+
+
+# thisset = {"apple","banana","cherry"}
+
+# for x in thisset:
+#     print(x)
+
+# print(thisset(1))
+
+# items = {1,2,3}
+
+# items.add(12345678)
+
+# print(items)
+
+# items.remove(3)
+# print(items)
+
+
+# thisset = {"apple","banana","cherry"}
+
+# x = thisset.pop("apple")
+# print("the value of x",x)
+
+
+
+# set1 = {1,2,3}
+# set2 = {1,2,3,"a"}
+
+# set3 = set1.union(set2)
+
+# print(set3)
+
+
+
+# thisdict = {
+#     "brand": "ford",
+#     "model": "tata",
+#     "year" : 1964
+# } 
+
+# print(len(thisdict))
+
+
+
+# this = {
+#     "list": ["red","yellow"],
+#     "tuple": ("red",1)
+# }
+
+# print(len(this))
+
+
+# print(this["list"][0])
+
+
+
+
+#access the dict 
+
+
+
+# x = {
+#     "name":"bharathithasan",
+#     "school": "krishnaswamy"
+# }
+
+# a = x.items()
+
+# # print(type(a))
+
+# print("the value of a",a)
+
+
+
+
+# car = {
+#     "brand":"ford",
+#     "model":"mustang",
+#     "year": 1997
+# }
+
+# car["year"] = "bharathi"
+
+# print(car)
+
+
+
+
+
+
+# thisdixt.pop("model")
+# print(thisdixt)
+
+
+
+# thisdixt.popitem()
+# print(thisdixt)
+
+
+
+
+# thisdixt = {
+#     "brand":"ford",
+#     "model":"mustang",
+#     "year": 1964
+# }
+
+
+
+# for x ,y in thisdixt.items():
+#     print(x,"the value of the x")
+#     print(y,"the value of the y")
+
+
+# copy 
+
+
+# thisdict = {
+#     "brand": "ford",
+#     "model": "mustang",
+#     "year":88008
+# }
+
+
+
+# mydict = thisdict
+# print(mydict)
+
+
+# myfamily = {
+#     "child1":{
+#         "name":"lara",
+#         "year": 123
+#     },
+#     "child2":{
+#         "name":"raja",
+#         "year": 12345
+#     }
+# }
+
+# # print(myfamily)
+
+# for x , obj in myfamily.items():
+#     print(obj)
+
+# for y in obj:
+#     # print(y + ':',obj[y])
+#     print(y )
+#     print(obj[y])
+
+
+
+# if statement
+
+
+# def aa(a):
+#     return print(a)
+
+# a = 330
+# b = 200
+
+# if b > a:
+#     print("b is greater than a")
+# else:
+#     aa("helo")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
