@@ -540,6 +540,89 @@
 #     aa("helo")
 
 
+# a = 333
+# b = 33
+
+# if b > a:
+#     print("b is greater than a")
+# elif a == b:
+#     print("a anb b are equal")
+# else:
+#     print("a is greater than b")
+# a = 19
+# b = 1
+
+# if a >b: print("a is graterthan b")
+
+
+
+# a = 2
+# b = 330
+
+# print("A") if a > b else print("b")
+
+
+
+
+
+# a = 330
+# b = 3301
+# print("A") if a > b else print("=") if a == b else print("B")
+
+
+# a = 200
+# b = 330
+# c = 500
+
+# if a > b or c > a:
+#     print("both condition are true")
+
+
+
+# a = 33
+# b = 200
+
+# if not a > b:
+#     print("a is not greater than b")
+
+
+
+
+
+
+
+
+# x = 1
+
+# if x > 10:
+#     print("above ten")
+#     if x > 20:
+#         print("and also above 20")
+#     else:
+#         print("but not above 20")
+
+
+# while loop and for loop 
+
+# i = 1
+
+# while i < 6:
+#     print(i)
+
+#     i +=1
+
+
+
+
+# i = 1
+
+# while i < 6:
+#     print(i)
+#     if i == 3:
+#         break
+#     i += 1
+
+
 
 
 
