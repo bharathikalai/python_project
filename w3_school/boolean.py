@@ -624,6 +624,504 @@
 
 
 
+# i = 0 
+# while i < 6:
+#     i +=1
+#     if i ==3:
+#       continue
+#     print(i)
+
+
+
+# i = 1
+
+# while i < 6:
+#     print(i)
+
+#     i +=1
+# else:
+#     print("i is no longer less than 6")
+
+
+
+# fruits = ["apple","banana","cherry"]
+
+# for x in fruits:
+#     print(x)
+
+
+# for x in "banana":
+#     print("the value of x",x)
+
+# x = ["banana","cherry","mango"]
+
+# for y in x:
+#     if y == "cherry":
+#         continue
+#     print(y) 
+# for x in range(6):
+#     print(x)
+
+
+# for x in range(2,30,3):
+#     print(x)
+
+
+
+
+
+
+
+# else in for Loop  
+
+
+
+# for x in range(6):
+#     print(x)
+# else:
+#     print("finally finished")
+
+
+
+
+
+# adj = ["red","big","tasty"]
+
+# fruits = ["apple","banana","cherry"]
+
+
+# for x in adj:
+#     for y in fruits:
+#         print(x)
+#         print(y)
+
+
+
+
+
+# pass statement
+
+
+# for x in [0,1,2]:
+#     print(x)
+
+
+# creating a function
+
+# def my_function():
+#     print("hello from a function")
+
+# my_function()
+
+
+
+
+# def my_function(fname):
+#     print(fname + " refsnes")
+
+# my_function("email")
+# my_function("tobias")
+# my_function("linus")
+
+
+
+#  no of argument
+
+
+# def my_function(fname, lname):
+#     print(fname + " " + lname)
+# my_function("email","regsnes")
+
+
+
+
+# arbitrary arguments *args
+
+
+
+# def my_function(*kids):
+#     print("the youngest child is "+ kids[2])
+
+
+
+# my_function("bharathi","kurathi","surathi")
+
+
+
+# key word arguments
+
+
+
+# def my_function(child3, child2,child1):
+#     print("the youngest child is " + child3)
+
+# my_function(child1="mosas",child2="kali",child3="vutai")
+
+
+
+
+
+
+# arbitrary keyword arguments , **kwargs
+
+
+# def my_function(**kid):
+#     print("his last name is "+ kid["lname"])
+
+# my_function(fname = "tobi",lname = "vudi")
+
+
+
+# default arguments
+
+
+
+# def my_function(country = "norway"):
+#     print("i am  from "+ country)
+
+# my_function()
+# my_function("swedan")
+# my_function("india")
+# my_function("brazil")
+
+
+
+# def my_function(food):
+
+#     for x in food:
+#         print(x)
+
+
+# fruits = ["apple","banana","cherry"]
+
+# my_function(fruits)
+
+
+
+
+
+# def my_function(x):
+#     return 5 * x
+
+# print(my_function(3))
+
+# print(my_function(30))
+
+# print(my_function(300))
+
+
+
+
+
+
+
+# def  myfunction():
+#     pass
+
+
+
+
+
+
+# def my_function(x, /):
+#     print(x)
+# my_function(x= 2)
+
+
+# def my_function(*, x):
+#     print(x)
+
+# my_function(3)
+
+
+# def my_function(a,b,/, *, c, d):
+#     print(a +b + c +d)
+# my_function(5,7, c = 7,d = 8)
+
+
+
+
+
+
+#recursion
+
+# def tri_recursion(k):
+#     if(k > 0):
+#         result = k + tri_recursion(k - 1)
+#         print(result)
+#     else:
+#         result = 0
+#     return result 
+
+# print("recursion example result")
+
+# tri_recursion(6)
+
+
+
+# def factorial(n):
+#     if n == 0:  # Base case
+#         return 1
+#     else:
+#         return n * factorial(n - 1)  # Recursive call
+
+
+# print(factorial(5))
+
+
+
+# lambda
+
+
+# x = lambda b : b + 10
+
+# print(x(5))
+
+
+
+
+# x = lambda a,b : a * b
+# print(x (1,10))
+
+
+
+# x = lambda a,b,c : a + b + c
+
+# print(x(5,6,2))
+
+
+
+
+
+# def myfunction(n):
+#     return lambda a : a * n
+
+# mydoubler = myfunction(2)
+
+# print(mydoubler(11))
+
+
+
+
+# array
+
+
+# car1 = ["Ford"]
+
+# car2 = "Volvo"
+
+# car3 = "BMW"
+
+
+
+# print(len(car1[0]))
+
+
+
+# python classes and object
+
+# class MyClass:
+#     x = 5
+
+# print(MyClass.x)
+
+
+# class MyClass:
+#     x = 5
+
+# p1 = MyClass()
+
+# print(p1.x)
+
+
+
+# class Person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+# p1 = Person("John",36)
+
+# print(p1.age)
+# print(p1.name)
+
+
+
+# class Person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+# p1 = Person("John",36)
+
+# print(p1)
+
+
+
+# class Person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def __str__(self):
+#         return f"{self.name}{self.age}"
+
+
+
+# p1 = Person("john",36)
+
+# print(p1)
+
+
+
+
+
+# object method
+
+
+# class Person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def myfunc(self):
+#         print("Hello my name is " + self.name)
+
+# p1 = Person("john",90)
+
+# p1.myfunc()
+
+
+
+
+# the self parameter 
+
+
+# class Person:
+#     def __init__(abc,name,age):
+#         abc.name = name
+#         abc.age = age
+#     def myfun(abcaaa):
+#         print("hello my name is "+ abcaaa.name)
+
+# p1 = Person("bharathi",90)
+
+# p1.myfun()
+
+
+# python inheritance
+
+
+# class Person:
+#     def __init__(self, fname, lname):
+#         self.fname = fname
+#         self.lname = lname
+#     def printname(self):
+#         print(self.fname,self.lname)
+
+# x = Person("John","Doe")
+
+# x.printname()
+
+
+
+# iterators
+
+
+# mytuple = ("apple","banana","cherry")
+
+# myit = iter(mytuple)
+
+# print(myit)
+
+# # iterator vs iterable
+
+# mytuple = ("apple","banana","cherry")
+
+# myit = iter(mytuple)
+
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+
+# mystr = "banana"
+
+# myit = iter(mystr)
+
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+
+# mytuple = ("apple","banana","cherry")
+
+# for x in mytuple:
+#     print(x)
+
+mytuple = "banana"
+
+for x in mytuple:
+    print("the value of the x",x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
