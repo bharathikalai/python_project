@@ -88,12 +88,12 @@
 #             test += result  
 #             test += " "   
     
-#         return test
-#     else:
-#         return s
+# #         return test
+# #     else:
+# #         return s
 
-# aa = solve("hello   world  lol")
-# print(aa)
+# # aa = solve("hello   world  lol")
+# # print(aa)
 
 
 # def solve(s):
@@ -113,8 +113,302 @@
 #     return result
 
 
-# aa = solve("bharathi thasan")
+# aa = solve("bharathi thasan     am ji   6h")
 # print("aa",aa)
+
+
+
+# d
+
+
+
+
+
+
+# def new_function(thename):
+#     change = True
+#     text = ""
+#     for x in the_name:
+#         if x == " ":
+#             text +=x
+#             change = True 
+#         elif change and x.isalpha():
+#             text += x.upper()
+#             change = False
+#         else:
+#             text +=x
+#             change = False
+#     return text
+
+
+
+
+# the_name = "bharathi thasan"
+
+
+# result = new_function(the_name)
+
+# print(result)
+
+
+
+# make add and even 
+
+
+
+# def add_even(nqqq):
+
+#     if nqqq % 2 == 0:
+#        return print("it is even")
+#     else:
+#        return print("it is add")
+        
+
+# nqqq = int(input())
+
+# result = add_even(nqqq)
+
+# num1 = 40
+# num2 = 30
+
+
+# if num1 * num2 <= 1000:
+#     print(num1* num2)
+# else:
+#      s = num1 + num2
+
+#      print("the value of s",s)
+
+
+
+
+
+# num = 10
+
+# previous = 0
+
+# for x in range(10):
+#     print(f"current number {x} previous {previous}")
+
+#     previous = x
+
+
+# text = "PYnative"
+# eve = ""
+
+# for x in text[0::2]:
+#     print(x)
+
+
+
+# text = "bharathi"
+
+# size  = len(text)
+
+# for x in range(0,size -5,2):
+#     print(x)
+
+
+
+
+
+
+
+
+# name = "Bharathithasan"
+
+# a = name[:5]
+# print(type(a))
+
+
+
+
+
+# username = "bharathithasan"
+# number = 3
+
+# print(username[number:])
+
+
+
+
+# exercise
+
+# check the first and last number of the list are same
+
+# numbers_x = [10,20,30,40,100]
+
+# if numbers_x[0] == numbers_x[-1]:
+#     print("first and last number of list are same"
+#     )
+# else:
+#     print("first and last number of list is not same")
+
+
+
+# exercise  display number divisible by 5
+
+
+# def check_function(userinput):
+#     value_5 = []
+#     value_none = []
+    
+#     for x in userinput:
+#         if x % 5 == 0: 
+#           print(x)
+#         elif x % 5 != 0:
+#           print(x)
+
+
+# userinput = [10,5,90,77,707,77]
+
+# result = check_function(userinput)
+
+# print(result)
+
+
+
+
+
+
+
+
+# find the number of occurrences of a substring in a string
+
+
+# str_x = "Emma is good developer. Emma is a writer"
+
+# a = str_x.count("Emma")
+
+# print("the value of a",a)
+
+
+
+# without using string method
+
+
+# def count_emma(statement):
+#     count = 0
+
+#     for i in range(len(statement) -1):
+#         count += statement[i: ]
+
+
+
+
+
+
+# count = count_emma("Emma is good developer. Emma is a writer")
+
+# print(count)
+
+
+
+
+# str_x = "Emma is good developer. Emma is a writer"
+
+# print(str_x[0:4])
+# print(len(str_x))
+
+
+
+
+
+
+# for x in range(len(str_x) -1 ):
+#     print(x)
+
+
+
+
+# print the following pattern
+
+# x = 5
+
+# for x in range(1,x+1):
+#     for  y in range(1,x+1):
+#         print(x, end = " ")
+    
+#     print("\n")
+
+
+#exercise 9 : check palindrome number
+
+
+
+# userinput = int(input())
+
+
+
+# if userinput % 11 == 0:
+#     print("is a palindrome number ")
+
+# else:
+#     print("it is not a palindrome number")
+
+
+
+
+
+
+
+
+# def palindrome(number):
+#     print("original number",number)
+#     original_num = number
+
+#     reverse_num = 0
+
+#     print("reverse_num",reverse_num)
+
+#     while number > 0:
+#         reminder = number % 10
+#         reverse_number = (reverse_num * 10) + reminder
+#         print(reverse_number)
+#         number = number // 10
+
+#     if original_num == reverse_num:
+#         print("given number palindrome")
+#     else:
+#         print("given number is not palindrome")
+
+
+
+# palindrome(121)
+# # palindrome(125)
+
+
+# def palindrome(number):
+#     print("original number", number)
+#     original_num = number
+    
+#     # reverse the given number
+#     reverse_num = 0
+#     while number > 0:
+#         reminder = number % 10
+#         reverse_num = (reverse_num * 10) + reminder
+#         number = number // 10
+#         print("number",number)
+#         print("reverse_num",reverse_num)
+
+
+#     # check numbers
+#     if original_num == reverse_num:
+#         print("Given number palindrome")
+#     else:
+#         print("Given number is not palindrome")
+
+# palindrome(121)
+# # palindrome(125)
+
+
+
+
+
+
+
+
+
 
 
 
