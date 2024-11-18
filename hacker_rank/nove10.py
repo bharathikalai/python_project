@@ -407,8 +407,129 @@
 
 
 
+# exercise 10 : merge two list using the following condtion
+
+
+# list1 = [10,20,25,30,35]
+# list2 = [40,45,60,75,90]
+
+
+# list = []
+
+# for x in list1:
+#     print(x)
+#     if x % 2 != 0:
+#         list +=x
+# print(list)
 
 
 
 
+# def merge_list(list1,list2):
+#     result_list = []
+
+#     for num in list1:
+#         if num % 2 != 0:
+#             result_list.append(num)
+#     for num in list2:
+#         if num % 2 == 0:
+#             result_list.append(num)
+    
+#     return result_list
+
+
+
+
+
+# list1 = [10,20,25,30,35]
+
+# list2 = [40,45,60,75,90]
+
+# print("result list", merge_list(list1,list2))
+
+
+
+
+
+
+
+# exercise 11 
+
+# get each digit from a number in the reverse order
+
+
+
+# for example if the given integer umber is 7536 the output shall be 6 3 5 7 
+# with a space separating the digit
+
+
+
+
+# def reverse_order(userinput):
+#     for x in userinput:
+#         print(x)
+
+
+
+
+
+
+# userinput = int(input())
+
+# result = reverse_order(userinput)
+
+# print(result)
+
+
+
+
+
+# iii = 7536
+
+# sst = str(iii)
+
+
+# for x in sst:
+#     xf = sst[-1]
+
+#     print(xf)
+
+    
+
+number = 7536
+
+print("given number ", number)
+
+while number > 0:
+    digit = number % 10
+
+    print(digit,"digit")
+
+    number = number // 10
+
+    print(number,"number")
+
+    print(digit,end = "")
+
+
+
+
+
+
+
+
+
+
+b = "1234567"
+
+for x in b:
+    print("the value of x",x)
+
+
+
+
+a = 1
+
+for x in a:
+    print(x)
 
